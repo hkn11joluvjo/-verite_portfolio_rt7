@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VÉRITÉ — Modern eyewear, timeless elegance.">
+  <title>VÉRITÉ | Eyewear with Intention</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#home" class="logo">VÉRITÉ</a>
+
+    <button class="menu-toggle" aria-label="メニューを開く"
+      aria-expanded="false" aria-controls="navigation">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navigation" id="navigation">
+      <a href="#home">HOME</a>
+      <a href="#collection">COLLECTION</a>
+      <a href="#about">ABOUT</a>
+      <a href="#products">SHOP</a>
+    </nav>
+
+    <a href="#products" class="header-shop">DISCOVER <span>↗</span></a>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <img
+        class="hero-image"
+        src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=2200&q=85"
+        alt="モダンなアイウェアブランドのキャンペーンイメージ">
+
+      <div class="hero-shade"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">THE ART OF EYEWEAR</p>
+        <h1>Beyond the<br><em>Ordinary.</em></h1>
+        <p class="hero-description">
+          視線の先に、新しい美しさを。
+        </p>
+        <a href="#collection" class="text-link light-link">
+          EXPLORE COLLECTION <span>↗</span>
+        </a>
+      </div>
+
+      <p class="hero-number">01 — 03 / VÉRITÉ</p>
+    </section>
+
+    <!-- Intro -->
+    <section class="intro section-padding">
+      <p class="eyebrow reveal">A DIFFERENT PERSPECTIVE</p>
+      <h2 class="intro-title reveal">
+        Style is not what you wear.<br>
+        <em>It's how you see.</em>
+      </h2>
+      <p class="intro-text reveal">
+        時代を超える美しさと、現代的な感性。<br>
+        自分らしさを映し出す、アイウェアを。
+      </p>
+    </section>
+
+    <!-- Collection -->
+    <section class="collection section-padding" id="collection">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">OUR COLLECTION</p>
+          <h2>Find Your Frame.</h2>
+        </div>
+        <p class="section-note">
+          それぞれの個性に寄り添う、ふたつのスタイル。
+        </p>
+      </div>
+
+      <div class="collection-grid">
+        <a href="#products" class="collection-card reveal">
+          <div class="collection-image">
+            <img
+              src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=1000&q=85"
+              alt="クラシックな眼鏡のイメージ"
+              loading="lazy">
+            <span class="collection-index">01</span>
+          </div>
+          <div class="collection-info">
+            <div>
+              <p class="eyebrow">TIMELESS DESIGN</p>
+              <h3>CLASSIC</h3>
+              <p>時代を超える、普遍的な美しさ。</p>
+            </div>
+            <span class="arrow-circle">↗</span>
+          </div>
+        </a>
+
+        <a href="#products" class="collection-card reveal">
+          <div class="collection-image">
+            <img
+              src="https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=1000&q=85"
+              alt="モダンな眼鏡のイメージ"
+              loading="lazy">
+            <span class="collection-index">02</span>
+          </div>
+          <div class="collection-info">
+            <div>
+              <p class="eyebrow">CONTEMPORARY FORM</p>
+              <h3>MODERN</h3>
+              <p>洗練されたフォルム、新しい存在感。</p>
+            </div>
+            <span class="arrow-circle">↗</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about-image">
+        <img
+          src="https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=1400&q=85"
+          alt="アイウェアのディテール"
+          loading="lazy">
+        <span class="about-image-label">DETAILS MATTER.</span>
+      </div>
+
+      <div class="about-content reveal">
+        <p class="eyebrow">OUR PHILOSOPHY</p>
+        <h2>Designed<br>with <em>Intention.</em></h2>
+        <p>
+          美しさは、細部に宿る。
+        </p>
+        <p class="about-description">
+          フレームのライン、素材の質感、細部のディテール。
+          余計なものを削ぎ落とし、長く愛せるデザインを追求します。
+          VÉRITÉが大切にするのは、装う人の個性を引き立てること。
+        </p>
+        <a href="#products" class="text-link">
+          OUR PHILOSOPHY <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products section-padding" id="products">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">CURATED FOR YOU</p>
+          <h2>Selected Eyewear.</h2>
+        </div>
+        <a href="#collection" class="text-link">
+          VIEW COLLECTION <span>↗</span>
+        </a>
+      </div>
+
+      <div class="product-grid" id="product-grid">
+        <!-- JavaScriptで商品を表示 -->
+      </div>
+    </section>
+
+    <!-- Campaign -->
+    <section class="campaign">
+      <img
+        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=2000&q=85"
+        alt="アイウェアブランドのファッションイメージ"
+        loading="lazy">
+      <div class="campaign-overlay"></div>
+      <div class="campaign-content reveal">
+        <p class="eyebrow">YOUR OWN PERSPECTIVE</p>
+        <h2>See the world<br><em>differently.</em></h2>
+        <a href="#collection" class="text-link light-link">
+          FIND YOUR STYLE <span>↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <a href="#home" class="logo footer-logo">VÉRITÉ</a>
+        <p class="footer-tagline">EYewear with Intention.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#collection">COLLECTION</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#products">SHOP</a>
+        <a href="#home">INSTAGRAM ↗</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 VÉRITÉ. PORTFOLIO CONCEPT.</p>
+      <a href="#home">BACK TO TOP ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
